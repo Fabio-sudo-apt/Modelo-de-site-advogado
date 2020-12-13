@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #352C3F;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 100vh;
+}
+.logo img{
+    width: 300px;
+    margin: 15px;
+    float: left;
+    opacity: none;
+    position: relative;
+    z-index: 1;
+}
+.menu{
+    margin: 20px;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 15px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #f7f7f7;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.menu li button{
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    color: #DDAB61;
+    border: 2px solid #DDAB61;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu li a:hover{
+    color: #DDAB61;
+    border-bottom: 2px solid #DDAB61;
+}
+.menu li button:hover{
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+}
+.capa{
+    background-image: url(../image/lady-justice-2388500_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 13%;
+    width: 100%;
+    height: 100%;
+}
+.perfil{
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+}
+.perfil img{
+    border: 3px solid #DDAB61;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.perfil h2{
+    color: #DDAB61;
+    font-size: 30px;
+    font-weight: bold;
+}
+.perfil p{
+    color: #f7f7f7;
+    font-size: 20px;
+}
+.mg-perfil{
+    margin: 10px;
+}
+.conteiner{
+    width: 1000px;
+    height: 480px;   
+    margin: auto;
+    margin-top: 80px;
+    margin-top: 80px;
+    position: relative;
+}
+.sobre-foto{
+    width: 450px;
+    height: 400px;
+    margin: 40px;
+    border-radius: 20px;
+}
+.conteudo{
+    position: absolute;
+    top: 5%;
+    left: 51%;
+    box-sizing: border-box;
+}
+.conteudo h2{
+    width: 117px;
+    color: #DDAB61;
+    border-bottom: 3px solid #DDAB61;
+    padding-bottom: 5px;
+}
+.conteudo p{
+    color: #f7f7f7;
+    font-size: 15px;
+    font-weight: normal;
+}
+.btn-conteudo{
+    color: #DDAB61;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-conteudo:hover{
+    background-color: #DDAB61;
+    color: #f7f7f7;
+}
+.mg-conteudo{
+    margin: 10px;
+}
+.curriculo{
+    width: 440px;
+    height: 200px;
+    border: 2px solid #DDAB61;
+    font-weight: 100;
+
+}
+.curriculo ul{
+    list-style: none;
+}
+.curriculo ul li{
+    padding: 10px;
+    color: #f7f7f7;
+    margin: 20px 0px 0px 0px;
+}
+.lista02-conteudo{
+    position: relative;
+    bottom: 88%;
+    margin-left: 265px;
+}
+.servicos-conteiner{
+    width: 1100px;
+    height: 480px;   
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+.text-servicos{
+    width: 92px;
+    color: #DDAB61;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #DDAB61;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.box-conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+.tamanhobox{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    border: 2px solid #DDAB61;
+    border-radius: 5px;
+}
+.box01{
+    flex: 1;
+}
+.box02{
+    flex: 1;
+}
+.box03{
+    flex: 1;
+}
+.servico-conteudo{
+    box-sizing: border-box;
+    margin: 25px;
+}
+.servico-conteudo img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.servico-conteudo h3{
+    color: #f7f7f7;
+    margin-bottom: 15px;
+}
+.servico-conteudo p{
+    color: #f7f7f7;
+    font-weight: 100;
+    text-align: justify;
+}
+.linha{
+    width: 100%;
+    height: 2px;
+    background-color: #DDAB61;
+}
+.rodape{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.radape-icon{
+    box-sizing: border-box;
+    text-align: center;
+}
+.radape-icon img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+small{
+    color: #f7f7f7;
+}
