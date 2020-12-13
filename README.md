@@ -3,7 +3,6 @@
 <img src="./Design/Desktop - 1.png">
 <br>
 <h2><img src="./image/technology.svg" width="20"> Tecnologia</h2>
-<hr>
 <p>Este projeto foi desenvolvido com as seguintes tecnologias:</p>
 <ul>
     <li><a href="https://www.figma.com/file/AAUSQagzkpdEVw6LSTrPYG/Advogado-Site-Copy">Figma</a></li>
@@ -13,6 +12,5 @@
 <br>
 <br>
 <h2><img src="./image/web-site.svg" width="20"> Conclusão</h2>
-<hr>
 <br>
 <img align="center" src="./Design/Renato Souza - Google Chrome 2020-12-12 19-11-16.gif">
