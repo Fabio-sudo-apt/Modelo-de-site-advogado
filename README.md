@@ -13,4 +13,4 @@
 <br>
 <h2><img src="./image/web-site.svg" width="20"> Conclusão</h2>
 <br>
-<img align="center" src="./Design/Renato Souza - Google Chrome 2020-12-12 19-11-16.gif">
+<img alignitens="center" src="./Design/Renato Souza - Google Chrome 2020-12-12 19-11-16.gif">
