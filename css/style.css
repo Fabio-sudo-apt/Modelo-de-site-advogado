@@ -70,20 +70,27 @@ body{
     width: 100%;
     transition: all .3s;
 }
+#icon{
+    position: relative;
+    left: 150px;
+    top: -50px;
+    font-size: 30px;
+    color: var(--yellow);
+    display: none;
+}
 /* header================================================= */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 #logo img{
     width: 300px;
     margin-left: 2rem;
 }
 #menu ul{
-    
     margin: 2rem;
-
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -99,5 +106,12 @@ header{
     text-transform: uppercase;
 }
 
-@media(mi)
+/* @media scree(min-width:700px){
+    #menu{
+        display: block !important;
+    }
+} */
+@media screen and (max-width:950px){
+    
+}
 
