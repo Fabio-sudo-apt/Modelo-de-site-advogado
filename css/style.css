@@ -78,6 +78,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 #logo img{
@@ -99,6 +100,30 @@ header{
     color: var(--white);
     text-transform: uppercase;
 }
+
+/* main ======================================== */
+.capa{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:950px){
     header{
         flex-direction: column;
