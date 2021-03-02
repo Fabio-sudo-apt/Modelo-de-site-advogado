@@ -63,7 +63,7 @@ body{
     width: 0;
     height: 2px;
     border-radius: 10px;
-    background-color: var(--yellow);
+    background-color: var(--wi);
     transition: all .3s;
 }
 .linha:hover::after{
@@ -89,6 +89,14 @@ body{
 }
 #WHImagem{
     height: 340px;
+}
+.icon{
+    font-size: 60px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.icon:hover{
+    color: var(--yellow);
 }
 /* header================================================= */
 header{
@@ -116,7 +124,7 @@ header{
     margin-right: 20px;
     padding: 15px;
     text-decoration: none;
-    color: var(--white);
+    color: var(--yellow);
     text-transform: uppercase;
 }
 
@@ -151,6 +159,7 @@ header{
 #sobreMe h1{
     color: var(--yellow);
     position: relative;
+    margin: auto;
 }
 #sobreMe h1::before{
     content: "";
@@ -176,11 +185,81 @@ header{
     color: var(--white);
     text-align: justify;
 }
+section > h1{
+    color: var(--yellow);
+    position: relative;
+    display: block;
+    margin-left: 100px;
+}
+section > h1::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    left: 0;
+    top: 28px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+}
+#servicos{
+    position: relative;
+    top: -250px;
+}
+#conteiner{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 50vh;
+}
+.conteundo{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid var(--yellow);
+    transition: all .3s;
+}
+.conteundo:hover{
+    margin-top: 15px;
+    color: var(--yellow);
+    transform: scale(1.1);
+}
+h3{
+    margin-bottom: 10px;
+    color: var(--white);
+    font-weight: bold;
+}
+h3:hover{
+    color: (var(--yellow));
+}
+.conteundo p{
+    text-align: justify;
+    font-weight: 200;
+    color: var(--white);
+}
+.conteundo p:hover{
+    color: var(--yellow);
+}
+
+
 
 
 @media screen and (max-width:1100px){
     #WHImagem{
         display: none;
+    }
+    #conteiner{
+        display: inline-block;
+        width: 100%;
+        height: 50vh;
+    }
+    .conteundo{
+        margin: auto;
+        width: 50%;
+        margin-top: 50px;
     }
 }
 
@@ -255,6 +334,18 @@ header{
         width: 50vw;
         color: var(--white);
         text-align: justify;
+    }
+    #conteiner{
+        display: inline-block;
+        width: 100%;
+        height: 50vh;
+    }
+    .conteundo{
+        margin: auto;
+        width: 82%;
+        height: 57%;
+        font-size: 10px;
+        margin-top: 50px;
     }
 }
 
