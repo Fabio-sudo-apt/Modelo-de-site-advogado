@@ -87,6 +87,9 @@ body{
 .mg-perfil{
     margin-bottom: 10px;
 }
+#WHImagem{
+    height: 340px;
+}
 /* header================================================= */
 header{
     display: flex;
@@ -137,22 +140,49 @@ header{
     font-size: .9rem;
     color: var(--white);
 }
+#sobreMe{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -400px;
+}
+#sobreMe h1{
+    color: var(--yellow);
+    position: relative;
+}
+#sobreMe h1::before{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    left: 0;
+    bottom: 3px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+}
+#fotoSobre img{
+    border-radius: 5px;
+    margin: 15px;
+    transition: all .3s;
+}
+#fotoSobre img:hover{
+    transform: scale(1.1);
+}
+.conteudorSobre{
+    width: 500px;
+    color: var(--white);
+    text-align: justify;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:1100px){
+    #WHImagem{
+        display: none;
+    }
+}
 
 @media screen and (max-width:950px){
     header{
@@ -208,8 +238,23 @@ header{
         color:var(--yellow)
     }
     #perfil p{
-        font-size: .7rem;
+        font-size: 0.5rem;
         color: var(--white);
+    }
+    #sobreMe{
+        position: relative;
+        top: -300px;
+    }
+    #fotoSobre img{
+        width: 50vw;
+    }
+    #WHImagem{
+        display: none;
+    }
+    .conteudorSobre{
+        width: 50vw;
+        color: var(--white);
+        text-align: justify;
     }
 }
 
