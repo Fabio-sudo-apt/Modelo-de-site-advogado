@@ -1,6 +1,6 @@
 <h1 align="center" color="red">Modelo de site advogado</h1>
 <br>
-<img src="./Design/Desktop - 1.png">
+<img src="./Design/">
 <br>
 <h2><img src="./image/technology.svg" width="20"> Tecnologia</h2>
 <p>Este projeto foi desenvolvido com as seguintes tecnologias:</p>
